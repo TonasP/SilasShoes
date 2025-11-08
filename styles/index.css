@@ -83,3 +83,109 @@ background: linear-gradient(90deg, #3f3f3f83 64%, #6e6e6e57 80%, #c4c4c400 95%);
     font-size: 6.2vw;
     color: white;
 }
+.anuncios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 1.5%;
+}
+.banner_secundario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.banner_secundario img{
+    width: 100%;
+}
+.novidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+.novidades h2{
+    font-size: 2.6vw;
+    font-weight: 300;
+}
+.produtos_banner{
+    display: flex;
+    justify-content: center;
+    gap: 1.5%;
+}
+.produtos{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+.produtos img{
+    width: 100%;
+}
+.produtos h3, .produtos p{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.produtos p{
+    margin-top: 0;
+}
+.produtos h3{
+    margin-bottom: 1%;
+}
+.produtos h3, .produtos p, .produtos del{
+    margin-left:7% ;
+}
+.produtos del{
+    color: #898989;
+}
+.instagram_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+}
+.instagram_section h2{
+    font-size: 2.6vw;
+    font-weight: 300;
+}
+.instagram_banner{
+    display: flex;
+    gap: 1.4%;
+    justify-content: center;
+}
+.instagram_imagens{
+    width: 25%;
+}
+.instagram_imagens img{
+    width: 100%;
+}
+footer{
+    background-color: #000000;
+}
+footer h3{
+    color: white;
+}
+footer a, footer p{
+    color: #898989;
+    text-decoration: none;
+}
+.footer_infos{
+    display: flex;
+    gap:50%
+}
+.bloco_esquerda{
+    display: flex;
+}
+.institucional, .ajuda, .politicas, .central-relacionamento{
+    display: flex;
+    flex-direction: column;
+}
+.bloco_direita{
+    display: flex;
+    flex-direction: row;
+}
+.redes_sociais{
+    display: flex;
+}
