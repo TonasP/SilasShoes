@@ -1,80 +1,97 @@
-html{
+html {
     font-family: "Bebas Neue";
     margin: 0;
     border: 0;
 }
-body{
+
+body {
     margin: 0;
 }
-header{
+
+header {
     background-color: #000000;
     display: flex;
     align-items: center;
     height: 7em;
 }
-.logo img{
+
+.logo img {
     margin-left: 4em;
     width: 67%;
-    
+
 }
-.links_header{
+
+.links_header {
     display: flex;
     gap: 2.1em;
     margin-left: 3em;
 }
-.links_header a{
+
+.links_header a {
     color: white;
     text-decoration: none;
     font-size: 1.3vw;
     font-weight: 300;
 }
-#especial{
+
+#especial {
     color: red;
 }
-.interativos{
+
+.interativos {
     display: flex;
     flex-direction: row;
     margin-left: 30%;
     gap: 4.6em;
 }
-.interativos div{
+
+.interativos div {
     display: flex;
     align-items: center;
 }
-.interativos img{
+
+.interativos img {
     height: 30%;
 }
-.interativos p{
+
+.interativos p {
     color: white;
     font-size: 1.3vw;
 }
-.carrinhodecompras{
+
+.carrinhodecompras {
     display: flex;
     align-items: center;
 }
-.carrinhodecompras img{
+
+.carrinhodecompras img {
     height: 50%;
 }
-.banner{
+
+.banner {
     position: relative;
-     overflow: hidden;
+    overflow: hidden;
 }
-.banner img{
+
+.banner img {
     max-width: 100%;
     box-shadow: 47px 0px 100px 9px #b3b3b3 inset;
     overflow: hidden;
 
-}.overlay_cinza{
-position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 99%;
-background: linear-gradient(90deg, #3f3f3f83 64%, #6e6e6e57 80%, #c4c4c400 95%);
-  z-index: 2; 
-  
 }
-.banner_texto{
+
+.overlay_cinza {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background: linear-gradient(90deg, #3f3f3f83 64%, #6e6e6e57 80%, #c4c4c400 95%);
+    z-index: 2;
+
+}
+
+.banner_texto {
     z-index: 4;
     position: absolute;
     top: 45%;
@@ -83,7 +100,8 @@ background: linear-gradient(90deg, #3f3f3f83 64%, #6e6e6e57 80%, #c4c4c400 95%);
     font-size: 6.2vw;
     color: white;
 }
-.anuncios{
+
+.anuncios {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -92,100 +110,182 @@ background: linear-gradient(90deg, #3f3f3f83 64%, #6e6e6e57 80%, #c4c4c400 95%);
     gap: 2%;
     margin-top: 1.5%;
 }
-.banner_secundario{
+
+.banner_secundario {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 30%;
 }
-.banner_secundario img{
+
+.banner_secundario img {
     width: 100%;
 }
-.novidades{
+
+.novidades {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 1%;
 }
-.novidades h2{
+
+.novidades h2 {
     font-size: 2.6vw;
     font-weight: 300;
 }
-.produtos_banner{
+
+.produtos_banner {
     display: flex;
     justify-content: center;
     gap: 1.5%;
 }
-.produtos{
+
+.produtos {
     display: flex;
     flex-direction: column;
     width: 23%;
 }
-.produtos img{
+
+.produtos img {
     width: 100%;
 }
-.produtos h3, .produtos p{
+
+.produtos h3,
+.produtos p {
     font-size: 1.3vw;
     font-weight: 400;
 }
-.produtos p{
+
+.produtos p {
     margin-top: 0;
 }
-.produtos h3{
+
+.produtos h3 {
     margin-bottom: 1%;
 }
-.produtos h3, .produtos p, .produtos del{
-    margin-left:7% ;
+
+.produtos h3,
+.produtos p,
+.produtos del {
+    margin-left: 7%;
 }
-.produtos del{
+
+.produtos del {
     color: #898989;
 }
-.instagram_section{
+
+.instagram_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 6%;
 }
-.instagram_section h2{
+
+.instagram_section h2 {
     font-size: 2.6vw;
     font-weight: 300;
 }
-.instagram_banner{
+
+.instagram_banner {
     display: flex;
     gap: 1.4%;
     justify-content: center;
 }
-.instagram_imagens{
+
+.instagram_imagens {
     width: 25%;
 }
-.instagram_imagens img{
+
+.instagram_imagens img {
     width: 100%;
 }
-footer{
+
+footer {
     background-color: #000000;
 }
-footer h3{
+
+footer h3 {
     color: white;
 }
-footer a, footer p{
+
+footer a,
+footer p {
     color: #898989;
     text-decoration: none;
 }
-.footer_infos{
+.footer_logo{
     display: flex;
-    gap:50%
+    align-items: center;
+    
 }
-.bloco_esquerda{
+.footer_logo img{
+    width: 7%;
+    margin-top: 1.5%;
+    margin-bottom: .6%;
+    
+    margin-left: 3%;
+}
+
+.footer_infos {
     display: flex;
+    border: #898989 solid 1px;
+    padding-bottom:1.5%;
 }
-.institucional, .ajuda, .politicas, .central-relacionamento{
+
+.bloco_esquerda {
+    display: flex;
+    width: 45%;
+    margin-left: 3%;
+}
+
+
+.info h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.info a {
+    font-size: 1vw;
+}
+.institucional,
+.ajuda,
+.politicas,
+.central-relacionamento {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
-.bloco_direita{
+
+.bloco_direita {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+
+}
+
+.bloco_direita h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.redes_sociais {
     display: flex;
     flex-direction: row;
+    width: 60%;
+    gap: 5%;
+
 }
-.redes_sociais{
+
+.redes_sociais img {
+    width: 60%;
+    margin: 0;
+}
+.direitos_autorais{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.direitos_autorais p{
+
 }
