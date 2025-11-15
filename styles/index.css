@@ -7,9 +7,12 @@ html {
 body {
     margin: 0;
 }
+<<<<<<< HEAD
 input, label{
     display: none;
 }
+=======
+>>>>>>> 044ab9033ed3eb460f2f16391aae6057ff208e8f
 
 header {
     background-color: #000000;
@@ -18,6 +21,7 @@ header {
     height: 7em;
 }
 
+<<<<<<< HEAD
 .logo{
     margin-left: 5%;
     width: 10%;
@@ -26,6 +30,13 @@ header {
 .logo img {
     width: 67%;
 }
+=======
+.logo img {
+    margin-left: 4em;
+    width: 67%;
+
+}
+>>>>>>> 044ab9033ed3eb460f2f16391aae6057ff208e8f
 
 .links_header {
     display: flex;
@@ -221,6 +232,7 @@ footer p {
     color: #898989;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 .footer_logo img {
     width: 8%;
@@ -231,10 +243,30 @@ footer p {
     display: flex;
     border: #333333 solid 1px;
     gap: 50%;
+=======
+.footer_logo{
+    display: flex;
+    align-items: center;
+    
+}
+.footer_logo img{
+    width: 7%;
+    margin-top: 1.5%;
+    margin-bottom: .6%;
+    
+    margin-left: 3%;
+}
+
+.footer_infos {
+    display: flex;
+    border: #898989 solid 1px;
+    padding-bottom:1.5%;
+>>>>>>> 044ab9033ed3eb460f2f16391aae6057ff208e8f
 }
 
 .bloco_esquerda {
     display: flex;
+<<<<<<< HEAD
     gap: 10%;
     margin: 1% 0% 3% 3%;
 }
@@ -250,20 +282,40 @@ footer p {
     font-weight: 300;
 }
 
+=======
+    width: 45%;
+    margin-left: 3%;
+}
+
+
+.info h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.info a {
+    font-size: 1vw;
+}
+>>>>>>> 044ab9033ed3eb460f2f16391aae6057ff208e8f
 .institucional,
 .ajuda,
 .politicas,
 .central-relacionamento {
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     min-width: max-content;
 }
 
 .bloco_direita {
+=======
+>>>>>>> 044ab9033ed3eb460f2f16391aae6057ff208e8f
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
+<<<<<<< HEAD
 .bloco_direita h3 {
     font-size: 1.2vw;
     font-weight: 300;
@@ -317,4 +369,38 @@ footer p {
     .interativos p{
         font-size: 3vw;
     }
+=======
+.bloco_direita {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+
+}
+
+.bloco_direita h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.redes_sociais {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    gap: 5%;
+
+}
+
+.redes_sociais img {
+    width: 60%;
+    margin: 0;
+}
+.direitos_autorais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.direitos_autorais p{
+
+>>>>>>> 044ab9033ed3eb460f2f16391aae6057ff208e8f
 }
