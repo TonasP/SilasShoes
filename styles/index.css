@@ -7,30 +7,46 @@ html {
 body {
     margin: 0;
 }
-input, label{
+
+input,
+label {
     display: none;
 }
 
 header {
-    background-color: #000000;
+    position: relative;
+    background-color: #000000; /* O Preto do header */
     display: flex;
     align-items: center;
     height: 7em;
+    z-index: 20;
+
 }
 
-.logo{
+.header_esquerda {
+    display: flex;
+    align-items: center;
     margin-left: 5%;
-    width: 10%;
-   
+    margin-right: auto;
+
 }
+
+.logo {
+    width: 100%;
+    height: 100%;
+    margin-right: 10%;
+
+}
+
 .logo img {
-    width: 67%;
+    width: 100%;
 }
 
 .links_header {
     display: flex;
     gap: 2.1em;
     margin-right: auto;
+
 }
 
 .links_header a {
@@ -41,6 +57,10 @@ header {
     min-width: max-content;
 }
 
+.links_header hr {
+    display: none;
+}
+
 #especial {
     color: red;
 }
@@ -49,6 +69,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 4.6em;
+    margin-right: 2%;
 }
 
 .interativos div {
@@ -286,35 +307,223 @@ footer p {
     margin: 0;
 }
 
+.texto_alt {
+    display: none;
+}
+
 .direitos_autorais {
     display: flex;
     justify-content: center;
 }
-@media  (max-width:1550px){
-    .logo img{
+
+@media (max-width:1550px) {
+    .logo img {
         width: 90%;
     }
 }
-@media  (max-width:769px){
-    label{
+@media (max-width:1090px){
+    .logo{
+        margin-right: auto;
+        width: 25%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .links_header{
+        gap: 7%;
+    }
+
+    .links_header a{
+        font-size: 1.7vw;
+    }
+    .interativos{
+        margin-right: 7%;
+        margin-left: auto;
+        gap: 15%;
+    }
+    .interativos p{
+        font-size: 2vw;
+    }
+    
+}
+
+@media (max-width:769px) {
+    body{
+        margin: 0;
+        padding-top: 7em;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .links_header {
+        display: none;
+    }
+
+    label {
         color: white;
         display: block;
         font-size: 4vw;
     }
-    .logo{
+
+    .header_esquerda {
+        flex-direction: column;
+    }
+
+    .logo {
         display: flex;
         gap: 10%;
-        width: 20%;
+        width: 100%;
     }
-    .links_header{
+    .logo img{
+        width: 60%;
+    }
+
+    .header_esquerda:has(#menu_toggle:checked) .links_header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links_header {
+        position: fixed;
+        background-color: #333333;
+        height: 100vh;
+        width: 90%;
+        padding-top: 5%;
+        top: 7em;
+        bottom:0 ;
+        left: 0%;
+        z-index: 10;
+        gap: 1%;
+    }
+
+    .links_header a {
+        font-size: 4.5vw;
+        padding: 2%;
+        margin-left: 3%;
+    }
+
+    .links_header hr {
+        display: block;
+        background-color: #666666;
+        border-color: #666666;
+        width: 90%;
+    }
+
+    .interativos {
+        margin-left: auto;
+        margin-right: 10%;
+        gap: 10%;
+    }
+
+    .interativos p {
+        font-size: 3vw;
+    }
+
+    .novidades h2 {
+        font-size: 5vw;
+    }
+
+    .produtos_banner {
+        flex-wrap: wrap;
+
+    }
+
+    .produtos {
+        width: 40%;
+    }
+
+    .produtos h3 {
+        font-size: 2.5vw;
+    }
+
+    .produtos del {
+        font-size: 1.7vw;
+    }
+
+    .produtos p {
+        font-size: 2vw;
+    }
+
+    .instagram_section h2 {
+        font-size: 5vw;
+    }
+
+    .footer_logo {
+        padding: 2%;
+    }
+
+    .footer_logo img {
+        width: 14%;
+    }
+
+    .footer_infos {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloco_esquerda {
+        margin-right: auto;
+    }
+
+    .bloco_esquerda h3 {
+        font-size: 2.4vw;
+    }
+
+    .bloco_esquerda a {
+        font-size: 2vw;
+    }
+
+    .bloco_direita {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bloco_direita h3 {
+        font-size: 2.5vw;
+    }
+
+    .redes_sociais {
+        gap: 3%;
+        margin-bottom: 10%;
+        width: 30%;
+    }
+
+    .redes_sociais img {
+        width: 100%;
+    }
+
+    .texto_alt {
+        display: block;
+    }
+
+    .texto_prim {
         display: none;
     }
-    .interativos{
-        margin-left: auto;
-        margin-right: 3%;
-        gap: 5%;
+
+    .direitos_autorais {
+        padding: 0 5%;
     }
+
+    .texto_alt {
+        text-align: center;
+    }
+}
+@media (max-width:500px){
+    label{
+        font-size: 9vw;
+    }
+    .logo{
+        align-items: center;
+    }
+    .logo img{
+        width: 50%;
+        height: 30%;
+    }
+   
     .interativos p{
-        font-size: 3vw;
+        display: none;
     }
 }
