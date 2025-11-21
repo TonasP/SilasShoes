@@ -1,0 +1,317 @@
+html {
+    font-family: "Bebas Neue";
+    margin: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header input 
+label {
+    display: none;
+}
+header input{
+    display: none;
+}
+.link_home label{
+    display: none;
+}
+
+header {
+    position: relative;
+    background-color: #000000; /* O Preto do header */
+    display: flex;
+    align-items: center;
+    height: 7em;
+    z-index: 20;
+
+}
+
+.header_esquerda {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: auto;
+
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    margin-right: 10%;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.links_header {
+    display: flex;
+    gap: 2.1em;
+    margin-right: auto;
+
+}
+
+.links_header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 300;
+    min-width: max-content;
+}
+
+.links_header hr {
+    display: none;
+}
+
+#especial {
+    color: red;
+}
+
+.interativos {
+    display: flex;
+    flex-direction: row;
+    gap: 4.6em;
+    margin-right: 2%;
+}
+
+.interativos div {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+.interativos img {
+    height: 30%;
+}
+
+.interativos p {
+    color: white;
+    font-size: 1.3vw;
+}
+
+.carrinhodecompras {
+    display: flex;
+    align-items: center;
+}
+
+.carrinhodecompras img {
+    height: 50%;
+}
+
+
+.produtos_section{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+.produtos_section input{
+    display: none;
+}
+.miniaturas_section{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40%;
+    
+}
+
+.miniaturas_section img{
+    width:45%;
+    
+}
+.miniaturas_section img:hover{
+    cursor: pointer;
+}
+.miniaturas_section input:checked +label img{
+    outline: 3px solid #000000;
+}
+
+.produto_imagem{
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+.produto_imagem img{
+    width: 100%;
+    margin: 0;
+}
+
+.compra_section{
+    width: 32%;
+}
+.nome_produto h3{
+    font-size: 1.5vw ;
+    font-weight: 300;
+    margin-bottom: 3%;
+}
+.nome_produto del{
+    color: #898989 ;
+
+}
+.nome_produto p{
+    font-size: 1.2vw;
+    margin: 0;
+}
+
+.tamanhos {
+    margin-top: 30px;
+}
+
+.opcoes_tamanho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 85%;
+    margin-top: 4%;
+}
+
+.checkbox_tamanho {
+    display: none;
+}
+
+.opcoes_tamanho label {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #898989;
+    background-color: #fff;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+    box-sizing: border-box;
+}
+
+.opcoes_tamanho label:hover {
+    border-color: #999;
+}
+
+.checkbox_tamanho:checked + label {
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+}
+.botao_compra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.botao_compra a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    background-color: #000000;
+    padding: 3% 43.3%;
+}
+
+.descricao_section{
+    margin-top: 18%;
+}
+.descricao_section h3{
+    font-size: 1.3vw;
+    font-weight: 300;
+}
+.descricao_section p{
+    font-size: 1vw;
+    font-weight: 300;
+    color: #898989;
+}
+
+footer {
+    background-color: #000000;
+    margin-top: 5%;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a,
+footer p {
+    color: #898989;
+    text-decoration: none;
+}
+
+.footer_logo img {
+    width: 8%;
+    padding: 1.2% 2%;
+}
+
+.footer_infos {
+    display: flex;
+    border: #333333 solid 1px;
+    gap: 50%;
+}
+
+.bloco_esquerda {
+    display: flex;
+    gap: 10%;
+    margin: 1% 0% 3% 3%;
+}
+
+.bloco_esquerda h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+
+}
+
+.bloco_esquerda a {
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.institucional,
+.ajuda,
+.politicas,
+.central-relacionamento {
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+}
+
+.bloco_direita {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco_direita h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.redes_sociais {
+    display: flex;
+    width: 40%;
+    gap: 15%;
+}
+
+.redes_sociais a {
+    font-size: 1vw;
+    width: 100%;
+
+}
+
+.redes_sociais img {
+    width: 150%;
+    margin: 0;
+}
+
+.texto_alt {
+    display: none;
+}
+
+.direitos_autorais {
+    display: flex;
+    justify-content: center;
+}
