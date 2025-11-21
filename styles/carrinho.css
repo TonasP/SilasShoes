@@ -1,0 +1,275 @@
+html {
+    font-family: "Bebas Neue";
+    margin: 0;
+    border: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header input 
+label {
+    display: none;
+}
+header input{
+    display: none;
+}
+.link_home label{
+    display: none;
+}
+
+header {
+    position: relative;
+    background-color: #000000; /* O Preto do header */
+    display: flex;
+    align-items: center;
+    height: 7em;
+    z-index: 20;
+
+}
+
+.header_esquerda {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: auto;
+
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    margin-right: 10%;
+
+}
+
+.logo img {
+    width: 100%;
+}
+
+.links_header {
+    display: flex;
+    gap: 2.1em;
+    margin-right: auto;
+
+}
+
+.links_header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 300;
+    min-width: max-content;
+}
+
+.links_header hr {
+    display: none;
+}
+
+#especial {
+    color: red;
+}
+
+.interativos {
+    display: flex;
+    flex-direction: row;
+    gap: 4.6em;
+    margin-right: 2%;
+}
+
+.interativos div {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+.interativos img {
+    height: 30%;
+}
+
+.interativos p {
+    color: white;
+    font-size: 1.3vw;
+}
+
+.carrinhodecompras {
+    display: flex;
+    align-items: center;
+}
+
+.carrinhodecompras img {
+    height: 50%;
+}
+.carrinho_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carrinho_section hr{
+    width: 94%;
+    margin:1% 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.carrinho_titulo{
+    margin-right: auto;
+    margin-left: 3%;
+    font-size: 1.4vw;
+    font-weight: 300;
+}
+
+
+.produto_carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3%;
+    gap: 6%;
+}
+.produto{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+.produto h3{
+    font-size: 1.2vw;
+    font-weight: 300;
+
+}
+.produto p{
+    font-size: .9vw;
+    color: #898989;
+}
+.descricao_produto h3{
+    margin: 0;
+}
+.descricao_produto p{
+    margin: 0;
+}
+.imagem_produto{
+    width: 20%;
+}
+.imagem_produto img{
+    width: 100%;
+    outline: #CCCCCC solid 2px;
+}
+.valor_produto{
+    width: 50%;
+}
+.valor_produto del{
+    color: #898989;
+}
+.valor_produto p{
+    margin-top:2% ;
+    font-size: 1.2vw;
+}
+.quantidade_produto{
+    width: 12%;
+    margin: 0 5%;
+}
+.quantidade_produto select{
+    width: 100%;
+    padding: 10% 10%;
+}
+.excluir{
+    margin-left: 10%;
+}
+.excluir p{
+    font-size: 1.2vw;
+}
+
+.concluir_section{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    width: 87%;
+}
+
+footer {
+    background-color: #000000;
+    margin-top: 5%;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a,
+footer p {
+    color: #898989;
+    text-decoration: none;
+}
+
+.footer_logo img {
+    width: 8%;
+    padding: 1.2% 2%;
+}
+
+.footer_infos {
+    display: flex;
+    border: #333333 solid 1px;
+    gap: 50%;
+}
+
+.bloco_esquerda {
+    display: flex;
+    gap: 10%;
+    margin: 1% 0% 3% 3%;
+}
+
+.bloco_esquerda h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+
+}
+
+.bloco_esquerda a {
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.institucional,
+.ajuda,
+.politicas,
+.central-relacionamento {
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+}
+
+.bloco_direita {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco_direita h3 {
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.redes_sociais {
+    display: flex;
+    width: 40%;
+    gap: 15%;
+}
+
+.redes_sociais a {
+    font-size: 1vw;
+    width: 100%;
+
+}
+
+.redes_sociais img {
+    width: 150%;
+    margin: 0;
+}
+
+.texto_alt {
+    display: none;
+}
+
+.direitos_autorais {
+    display: flex;
+    justify-content: center;
+}
