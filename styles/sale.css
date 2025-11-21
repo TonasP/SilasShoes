@@ -83,6 +83,12 @@ header {
     align-items: center;
     gap: 7%;
 }
+.interativos a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 7%;
+}
 
 .interativos img {
     height: 30%;
@@ -269,6 +275,10 @@ header {
 
 .produtos img {
     width: 100%;
+}
+.produtos a{
+    text-decoration: none;
+    color: #000000;
 }
 
 .produtos h3,

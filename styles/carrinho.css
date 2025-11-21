@@ -83,6 +83,12 @@ header {
     align-items: center;
     gap: 7%;
 }
+.interativos a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 7%;
+}
 
 .interativos img {
     height: 30%;
@@ -174,6 +180,7 @@ header {
 }
 .excluir{
     margin-left: 10%;
+    cursor: pointer;
 }
 .excluir p{
     font-size: 1.2vw;
@@ -182,8 +189,35 @@ header {
 .concluir_section{
     display: flex;
     flex-direction: column;
-    align-self: start;
-    width: 87%;
+    width: 100%;
+    
+}
+.concluir_compra{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+   margin-left: 83%;
+  
+    
+
+}
+.concluir_compra a{
+    background-color: #000000;
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    width: 100%;
+    padding: 4.5% 30%;
+}
+.concluir_compra h3{
+    font-size: 1.9vw;
+    margin-left: 20%;
+    margin-bottom: 0;
+}
+.concluir_compra p{
+    font-size: 1.9vw;
+    margin-left: 20%;
+    margin-top: 0;
 }
 
 footer {

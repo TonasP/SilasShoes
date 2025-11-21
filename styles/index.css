@@ -8,8 +8,14 @@ body {
     margin: 0;
 }
 
-input,
+header input 
 label {
+    display: none;
+}
+header input{
+    display: none;
+}
+.link_home label{
     display: none;
 }
 
@@ -75,6 +81,12 @@ header {
 .interativos div {
     display: flex;
     align-items: center;
+    gap: 7%;
+}
+.interativos a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     gap: 7%;
 }
 

@@ -108,131 +108,60 @@ header {
     height: 50%;
 }
 
-
-.produtos_section{
+.formularios{
     display: flex;
-    flex-direction: row;
-    width: 85%;
-    margin-left: 6%;
+    width: 80%;
+    justify-content: center;
+    margin-left: 7.5%;
+    gap: 15%;
+}
+.formularios label{
+    font-size: 1.1vw;
+}
+
+.formularios input{
+    padding:5% 3% ;
+    width: 113%;
+    border: #898989 solid 1.5px;
     margin-top: 3%;
+    margin-bottom: 12%;
+    font-family: "Bebas Neue";
 }
-.produtos_section input{
-    display: none;
+.formulario_login, .formulario_cadastro{
+    width: 20%;
 }
-.miniaturas_section{
+.formulario_login h1, .formulario_cadastro h1{
+    margin: 30% 50%;
+}
+.botoes_login{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 40%;
-    
-}
-
-.miniaturas_section img{
-    width:45%;
-    
-}
-.miniaturas_section img:hover{
-    cursor: pointer;
-}
-.miniaturas_section input:checked +label img{
-    outline: 3px solid #000000;
-}
-
-.produto_imagem{
-    width: 50%;
-    margin-top: 10%;
-    margin-right: 5%;
-}
-.produto_imagem img{
-    width: 100%;
-    margin: 0;
-}
-
-.compra_section{
-    width: 32%;
-}
-.nome_produto h3{
-    font-size: 1.5vw ;
-    font-weight: 300;
-    margin-bottom: 3%;
-}
-.nome_produto del{
-    color: #898989 ;
-
-}
-.nome_produto p{
-    font-size: 1.2vw;
-    margin: 0;
-}
-
-.tamanhos {
-    margin-top: 30px;
-}
-
-.opcoes_tamanho {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    width: 85%;
-    margin-top: 4%;
-}
-
-.checkbox_tamanho {
-    display: none;
-}
-
-.opcoes_tamanho label {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 1rem;
-    color: #898989;
-    background-color: #fff;
-    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
-    box-sizing: border-box;
+    margin-left: 20%;
 }
-
-.opcoes_tamanho label:hover {
-    border-color: #999;
-}
-
-.checkbox_tamanho:checked + label {
-    background-color: #000000;
-    color: white;
-    border-color: #000000;
-}
-.botao_compra{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    
-}
-.botao_compra a{
+.botoes_login a {
     text-decoration: none;
     color: white;
-    font-size: 1vw;
     background-color: #000000;
-    padding: 3% 43.3%;
+    font-size: 1.2vw;
+    padding: 4% 65%;
+}
+.botoes_login p{
+    color: #898989;
+    text-decoration: underline;
+    margin-top: 20%;
+}
+.botao_cadastro a{
+      text-decoration: none;
+    color: white;
+    background-color: #000000;
+    font-size: 1.2vw;
+    padding: 4% 46.7%;
 }
 
-.descricao_section{
-    margin-top: 18%;
-}
-.descricao_section h3{
-    font-size: 1.3vw;
-    font-weight: 300;
-}
-.descricao_section p{
-    font-size: 1vw;
-    font-weight: 300;
-    color: #898989;
-}
+
+
+
 
 footer {
     background-color: #000000;

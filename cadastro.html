@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/carrinho.css">
+    <link rel="stylesheet" href="styles/cadastro.css">
     <title>Silas Shoes</title>
 </head>
 
@@ -53,117 +53,42 @@
             </div>
         </div>
     </header>
-    <section class="carrinho_section">
-        <h2 class="carrinho_titulo">CARRINHO</h2>
-        <div class="produto_carrinho">
-            <div class="produto">
-                <div class="imagem_produto">
-                    <img src="assets/calçadoduplo.png" alt="">
-                </div>
-                <div class="descricao_produto">
-                    <h3>TENIS PRETO CASUAL</h3>
-                    <p>TAMANHO: 39</p>
-                </div>
-            </div>
-            <div class="valor_produto">
-                <del>R$ 299,90</del>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="quantidade_produto">
+    <section class="formulario_section">
+        <div class="formularios">
+            <div class="formulario_login">
+                <h1>LOGIN</h1>
                 <form>
-                    <label for="dropdown"></label>
-                    <select name="dropdown" id="dropdown">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                    </select>
+                    <label for="email">E-mail</label><br>
+                    <input type="text" id="email" name="email" placeholder="seu@email.com"><br>
+                    <label for="senha">Senha</label><br>
+                    <input type="password" id="senha" name="Sua senha" placeholder="Sua senha">
                 </form>
-            </div>
-            <div class="excluir">
-                <p>╳</p>
-            </div>
-        </div>
-        <hr>
-        <div class="produto_carrinho">
-            <div class="produto">
-                <div class="imagem_produto">
-                    <img src="assets/calçadoduplo.png" alt="">
-                </div>
-                <div class="descricao_produto">
-                    <h3>TENIS PRETO CASUAL</h3>
-                    <p>TAMANHO: 39</p>
+                <div class="botoes_login">
+                    <a href="#">ENTRAR</a>
+                    <p>Esqueci a senha</p>
                 </div>
             </div>
-            <div class="valor_produto">
-                <del>R$ 299,90</del>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="quantidade_produto">
+            <div class="formulario_cadastro">
+                <h1>CADASTRO</h1>
                 <form>
-                    <label for="dropdown"></label>
-                    <select name="dropdown" id="dropdown">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                    </select>
+                    <label for="emailcad">E-mail</label><br>
+                    <input type="text" id="emailcad" name="emailcad" placeholder="seu@email.com"><br>
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="ex: Tamagoshi da silva">
+                    <form>
+                        <label for="senhacad">Senha</label><br>
+                        <input type="password" id="senhacad" name="senha" placeholder="Sua senha"><br>
+                        <label for="confsenha">Confirme sua senha</label><br>
+                        <input type="password" id="confsenha" name="Sua senha" placeholder="Sua senha">
+                    </form>
                 </form>
-            </div>
-            <div class="excluir">
-                <p>╳</p>
-            </div>
-        </div>
-        <hr>
-        <div class="produto_carrinho">
-            <div class="produto">
-                <div class="imagem_produto">
-                    <img src="assets/calçadoduplo.png" alt="">
-                </div>
-                <div class="descricao_produto">
-                    <h3>TENIS PRETO CASUAL</h3>
-                    <p>TAMANHO: 39</p>
-                </div>
-            </div>
-            <div class="valor_produto">
-                <del>R$ 299,90</del>
-                <p>R$ 129,90</p>
-            </div>
-            <div class="quantidade_produto">
-                <form>
-                    <label for="dropdown"></label>
-                    <select name="dropdown" id="dropdown">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                    </select>
-                </form>
-            </div>
-            <div class="excluir">
-                <p>╳</p>
-            </div>
-        </div>
-        <hr>
-        <div class="concluir_section">
-            <div class="concluir_compra">
-                <h3>TOTAL</h3>
-                <p>R$567,89</p>
-                <div class="botao_concluir">
-                    <a href="#">CONCLUIR COMPRA</a>
+                <div class="botao_cadastro">
+                    <a href="#">CADASTRAR</a>
                 </div>
             </div>
         </div>
     </section>
+
     <footer>
         <div class="footer_logo">
             <img src="assets/store.png" alt="">
