@@ -375,9 +375,18 @@ footer p {
     }
 
     label {
+        
+    }
+    .link_home{
+        display: flex;
+        text-decoration: none;
+        gap: 15%;
+    }
+    .link_home label{
         color: white;
         display: block;
-        font-size: 4vw;
+        font-size: 6vw;
+        
     }
 
     .header_esquerda {
@@ -387,15 +396,18 @@ footer p {
     .logo {
         display: flex;
         gap: 10%;
-        width: 100%;
+        width: 60%;
     }
     .logo img{
-        width: 60%;
+        width: 100%;
+        height: 80%;
+        margin-top: 6%;
     }
 
     .header_esquerda:has(#menu_toggle:checked) .links_header {
         display: flex;
         flex-direction: column;
+        animation: menuQuery .3s ease-out 0s 1 normal forwards;
     }
 
     .links_header {
@@ -532,11 +544,22 @@ footer p {
         align-items: center;
     }
     .logo img{
-        width: 50%;
-        height: 30%;
+        width: 90%;
+        height: 100%;
     }
    
     .interativos p{
         display: none;
     }
+}
+@keyframes menuQuery {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }

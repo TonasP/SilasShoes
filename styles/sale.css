@@ -115,6 +115,7 @@ header {
     height: 250px;    
     margin: 2em auto; 
     margin-bottom:0 ;
+    z-index: 999;
 }
 
 .banner img {
@@ -279,6 +280,11 @@ header {
 .produtos a{
     text-decoration: none;
     color: #000000;
+    transition: .2s;
+    z-index: 0;
+}
+.produtos a:hover{
+    transform: scale(1.05);
 }
 
 .produtos h3,
